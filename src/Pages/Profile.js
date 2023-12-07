@@ -18,7 +18,7 @@ function Profile() {
         setUsername(response.data.username);
     });
 
-    axios.get(`https://full-stack-api-sushanthnandeti-5a86740447dd.herokuapp.com/byuserId/${id}`).then((response) => {
+    axios.get(`https://full-stack-api-sushanthnandeti-5a86740447dd.herokuapp.com/posts/byuserId/${id}`).then((response) => {
         setListOfPosts(response.data);
     });
     
