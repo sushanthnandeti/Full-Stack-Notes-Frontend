@@ -22,7 +22,7 @@ function App() {
   });
 
   useEffect(() => {
-    axios.get("http://localhost:3001/auth/auth", {
+    axios.get("https://full-stack-api-sushanthnandeti-5a86740447dd.herokuapp.com/auth/auth", {
     headers: { 
       accessToken: localStorage.getItem("accessToken"),
   },
