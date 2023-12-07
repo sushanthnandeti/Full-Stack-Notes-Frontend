@@ -9,7 +9,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(232, 239, 250);
+  background-color: #E8EFFA;
 }
 
 .post {
@@ -114,7 +114,7 @@ body {
   margin-top: 15px;
   height: 40px;
   border: none;
-  background-color: lightskyblue;
+  background-color: rgb(12, 56, 138);
   border-radius: 5px;
   color: white;
 }
